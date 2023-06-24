@@ -1,0 +1,19 @@
+/* 鱼塘固定宽度 */
+canvas:not(#ribbon-canvas), #web_bg {
+    margin-bottom: -0rem;
+    display: block;
+    width: 100%;
+    height: 160px
+}
+
+@font-face { font-family:MyFont;
+  src: url(/Font/webmo.woff2)}
+
+@font-face { font-family:CodeFont;
+  src: url(/Font/JetBrainsMono-Medium-3.woff2)}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
