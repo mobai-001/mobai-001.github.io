@@ -6,11 +6,12 @@ canvas:not(#ribbon-canvas), #web_bg {
     height: 160px
 }
 
+/* 字体 */
 @font-face { font-family:MyFont;
-  src: url(/Font/webmo.woff2)}
+  src: url(/Mobai_Folder/Mobai_Customization/Font/webmo.woff2)}
 
 @font-face { font-family:CodeFont;
-  src: url(/Font/JetBrainsMono-Medium-3.woff2)}
+  src: url(/Mobai_Folder/Mobai_Customization/Font/JetBrainsMono-Medium-3.woff2)}
 
 /* 滚动条 */
 ::-webkit-scrollbar {
