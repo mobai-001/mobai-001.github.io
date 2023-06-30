@@ -175,8 +175,8 @@ document.addEventListener('DOMContentLoaded', panguFn)</script><script src="/js/
   function initValine () {
     const initData = {
       el: '#vcomment',
-      appId: 'z42wif1WAeUelONNru2DRunO-MdYXbMMI',
-      appKey: 'RvNfoR1U62rAG0iyT7Ghwtdw',
+      appId: 'ahjz9AcvnSbyLCQgjBl237uy-MdYXbMMI',
+      appKey: '80l0EG2gvcFIWlcQj4lOldgS',
       placeholder: '别犹豫,踩个脚印吧~',
       avatar: 'retro',
       meta: 'nick,mail,link'.split(','),
@@ -186,6 +186,9 @@ document.addEventListener('DOMContentLoaded', panguFn)</script><script src="/js/
       serverURLs: '',
       emojiCDN: '',
       emojiMaps: "",
+      master: '4de105edf435d244915e9f3c391e041f',
+      tagMeta: ["Mobai!","小伙伴","读者"],
+      friends: ["0f6ca1f62770aa8012e9b7b3f3cb38dd"],
       enableQQ: true,
       path: window.location.pathname,
     }
@@ -198,7 +201,7 @@ document.addEventListener('DOMContentLoaded', panguFn)</script><script src="/js/
   }
 
   if (typeof Valine === 'function') initValine() 
-  else $.getScript('https://unpkg.com/valine/dist/Valine.min.js', initValine)
+  else $.getScript('/Mobai_Folder/Mobai_Customization/Js/Valine.min.js', initValine)
 }
 
 if ('Valine' === 'Valine' || !true) {
