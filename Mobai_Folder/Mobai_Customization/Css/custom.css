@@ -18,3 +18,56 @@ canvas:not(#ribbon-canvas), #web_bg {
   width: 5px;
   height: 5px;
 }
+
+/* 文章页图片圆角 */
+#article-container img {
+  border-radius: 8px
+}
+
+/* 文章页顶部图左右下圆角 */
+#page-header.post-bg:before {
+  border-radius: 8px
+}
+
+#page-header.post-bg {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* 文章底部copyright圆角 */
+.layout_post .post-copyright{
+  border-radius: 8px
+}
+
+/* 文章底部上一篇下一篇圆角 */
+#pagination.pagination-post {
+  border-radius: 8px
+}
+
+/* 文章页目录块圆角 */
+#sidebar .sidebar-toc .toc-link.active {
+  border-radius: 8px
+}
+
+/* 网站右下角按钮圆角 */
+#rightside > div > button, #rightside > div > a {
+  border-radius: 6px
+}
+
+/* 文章页普通模式普通代码块(普通代码块在阅读模式也有圆角)圆角 */
+#article-container pre {
+  border-radius: 8px
+}
+
+#article-container pre, #article-container code {
+  border-radius: 8px
+}
+
+/* (主页)右侧边栏Follow Me圆角 */
+#aside_content .card-info #card-info-btn {
+  border-radius: 8px;
+}
+
+.button--animated:hover:before {
+  border-radius: 8px
+}
