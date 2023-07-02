@@ -26,7 +26,8 @@ canvas:not(#ribbon-canvas), #web_bg {
 
 /* 文章页顶部图左右下圆角 */
 #page-header.post-bg:before {
-  border-radius: 8px
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 #page-header.post-bg {
@@ -65,9 +66,19 @@ canvas:not(#ribbon-canvas), #web_bg {
 
 /* (主页)右侧边栏Follow Me圆角 */
 #aside_content .card-info #card-info-btn {
-  border-radius: 8px;
+  border-radius: 8px
 }
 
 .button--animated:hover:before {
   border-radius: 8px
+}
+
+/* 首页底部文章页数按钮圆角 */
+#pagination .page-number.current {
+  border-radius: 8px
+}
+
+/* 阅读模式下代码不变黑修改 */
+.read-mode #article-container pre *, .read-mode #article-container .highlight:not(.js-file-line-container) * {
+  color: #eff !important;
 }
