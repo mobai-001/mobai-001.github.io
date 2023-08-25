@@ -8,10 +8,10 @@ canvas:not(#ribbon-canvas), #web_bg {
 
 /* 字体 */
 @font-face { font-family:MyFont;
-  src: url(/Mobai_Folder/Mobai_Customization/Font/webmo.woff2)}
+  src: url(https://cdn.jsdelivr.net/gh/mobai-001/mobai-001.github.io/Mobai_Folder/Mobai_Customization/Font/webmo.woff2)}
 
 @font-face { font-family:CodeFont;
-  src: url(/Mobai_Folder/Mobai_Customization/Font/JetBrainsMono-Medium-3.woff2)}
+  src: url(https://cdn.jsdelivr.net/gh/mobai-001/mobai-001.github.io/Mobai_Folder/Mobai_Customization/Font/JetBrainsMono-Medium-3.woff2)}
 
 /* 滚动条 */
 ::-webkit-scrollbar {
