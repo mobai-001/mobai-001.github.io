@@ -153,11 +153,6 @@ canvas:not(#ribbon-canvas), #web_bg {
   border-bottom-right-radius: 30px;
 }
 
-/* 主页底部文字上调 */
-#footer-wrap {
-  padding: 2mm 1mm;
-}
-
 /* Link卡片 */
 #article-container a:hover {
   text-decoration: none;
